@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Landing page for grocery & dairy retailer “New Murena Sudh Ghee Bhandar” using semantic HTML5 and responsive CSS (Flexbox/Grid) with a golden/cream theme.",
+  "architectural_notes": [
+    "Use semantic HTML5 structure (header/nav/main/section/footer) and responsive layout via CSS Grid/Flexbox.",
+    "Apply golden/cream color theme consistent across components; ensure mobile-first responsiveness."
+  ],
+  "known_issues": [],
+  "isFixRequest": true,
+  "existing_features": [
+    {
+      "id": "feature-create-a-single-page-mobile-friendly-landing-page-for-the-grocery-and-dairy-retailer-new-murena-sudh-ghee-bhandar-using-semantic-html5-structure-implemented-in-react-markup-and-custom-responsive-css-using-flexbox-and-or-css-grid-not-relying-solely-on-utility-classes",
+      "title": "Create a single-page, mobile-friendly landing page for the grocery and dairy retailer “New Murena Sudh Ghee Bhandar” using semantic HTML5 structure (implemented in React markup) and custom responsive CSS using Flexbox and/or CSS Grid (not relying solely on utility classes).",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-navbar-with-a-left-aligned-logo-brand-text-and-right-aligned-navigation-links-home-dairy-products-sweets-contact-include-accessible-keyboard-focus-styles-and-a-mobile-friendly-layout-e-g-wrapping-or-a-simple-mobile-menu",
+      "title": "Implement the Navbar with a left-aligned logo/brand text and right-aligned navigation links: Home, Dairy Products, Sweets, Contact. Include accessible keyboard focus styles and a mobile-friendly layout (e.g., wrapping or a simple mobile menu).",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-hero-section-containing-the-exact-headline-text-experience-the-taste-of-purity-the-sub-headline-your-one-stop-shop-for-sudh-ghee-dairy-and-confectionery-and-a-primary-visit-store-button-styled-as-the-main-call-to-action",
+      "title": "Implement the Hero section containing the exact headline text “Experience the Taste of Purity”, the sub-headline “Your one-stop shop for Sudh Ghee, Dairy, and Confectionery”, and a primary “Visit Store” button styled as the main call-to-action.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-featured-collection-section-using-a-css-grid-layout-where-pure-ghee-is-highlighted-as-the-main-product-with-a-larger-card-and-smaller-cards-are-shown-for-refined-oils-cadbury-chocolates-real-juices-and-fresh-sweets",
+      "title": "Implement the Featured Collection section using a CSS Grid layout where “Pure Ghee” is highlighted as the main product with a larger card, and smaller cards are shown for “Refined Oils”, “Cadbury Chocolates”, “Real Juices”, and “Fresh Sweets”.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-why-choose-us-section-with-three-icon-text-items-100-pure-fresh-daily-and-trusted-brands-icons-must-be-implemented-without-external-network-dependencies-e-g-inline-svg",
+      "title": "Implement the “Why Choose Us” section with three icon+text items: “100% Pure”, “Fresh Daily”, and “Trusted Brands”. Icons must be implemented without external network dependencies (e.g., inline SVG).",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-footer-containing-address-phone-number-and-a-copyright-line-if-real-address-phone-are-not-provided-use-clearly-labeled-placeholder-text-in-english-that-can-be-easily-edited-later",
+      "title": "Implement the Footer containing Address, Phone Number, and a Copyright line. If real address/phone are not provided, use clearly labeled placeholder text in English that can be easily edited later.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-consistent-golden-cream-visual-theme-across-the-landing-page-backgrounds-accents-button-styles-and-typography-to-reflect-ghee-dairy-ensuring-adequate-contrast-and-a-cohesive-look",
+      "title": "Apply a consistent golden/cream visual theme across the landing page (backgrounds, accents, button styles, and typography) to reflect ghee/dairy, ensuring adequate contrast and a cohesive look.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-landing-page-footer-contact-details-to-replace-the-placeholder-address-and-phone-number-with-the-provided-real-address-and-contact-number",
+      "title": "Update the landing page footer contact details to replace the placeholder address and phone number with the provided real address and contact number.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create semantic HTML5 + responsive CSS landing page for “New Murena Sudh Ghee Bhandar” with navbar, hero, featured collection grid (highlight Pure Ghee), why-choose-us icons, and footer (golden/cream theme, mobile-friendly).",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Update the landing page footer to use the provided real address (Shop No. 7, Rajeev Gandhi Complex, Manisha Market, Shahpura Lake, Shahpura, Bhopal, Madhya Pradesh 462039) and contact number (09981123849) instead of placeholders.",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "New Murena Sudh Ghee Bhandar",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

@@ -1,0 +1,5 @@
+{
+  "frontend/src/App.tsx": "Main landing page component for New Murena Sudh Ghee Bhandar with semantic HTML5 structure including navbar, hero section, featured products grid, why-choose-us section, and footer with updated real contact information (address and phone number).",
+  "frontend/src/index.css": "Complete custom CSS implementing golden/cream theme with OKLCH colors, Flexbox navbar layout, CSS Grid featured collection, responsive mobile-first design, and comprehensive styling for all landing page sections.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with Inter font family and maintaining the golden/cream color system tokens for consistent theming."
+}

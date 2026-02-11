@@ -1,0 +1,38 @@
+{
+  "kind": "build_request",
+  "title": "Update footer address and contact number",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-8",
+      "text": "Update the landing page footer contact details to replace the placeholder address and phone number with the provided real address and contact number.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "recent-messages"
+        ],
+        "quotes": [
+          "The address is \nShop No. 7, Rajeev Gandhi Complex, Manisha Market, Shahpura Lake, Shahpura, Bhopal, Madhya Pradesh 462039\nContact: 09981123849\nMake the changes in web page"
+        ]
+      },
+      "acceptanceCriteria": [
+        "In frontend/src/App.tsx footer section, the text \"[Your Address Here]\" is replaced with: \"Shop No. 7, Rajeev Gandhi Complex, Manisha Market, Shahpura Lake, Shahpura, Bhopal, Madhya Pradesh 462039\".",
+        "In frontend/src/App.tsx footer section, the text \"Phone: [Your Phone Number]\" is replaced with: \"Phone: 09981123849\".",
+        "No other landing page sections (navbar, hero, featured collection, why-choose-us) are changed.",
+        "Footer layout and styling remain consistent with the existing golden/cream theme and responsive behavior."
+      ]
+    }
+  ],
+  "constraints": [
+    "Frontend immutable paths must not be edited: frontend/src/hooks/useInternetIdentity.ts, frontend/src/hooks/useInternetIdentity.tsx, frontend/src/hooks/useActor.ts, frontend/src/main.tsx, frontend/src/components/ui.",
+    "Backend must remain a single Motoko actor (no additional canisters/services)."
+  ],
+  "nonGoals": [
+    "Adding new contact channels (email, map embed, WhatsApp link) beyond updating the existing footer text.",
+    "Changing business hours or other copy outside the footer placeholders."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

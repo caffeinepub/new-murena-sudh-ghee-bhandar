@@ -1,0 +1,24 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Update landing page footer contact details",
+  "requirements": [
+    {
+      "id": "REQ-8",
+      "summary": "Replace footer placeholder address and phone number on the landing page with the provided real contact details while keeping layout/theme unchanged.",
+      "acceptanceCriteria": [
+        "In frontend/src/App.tsx footer section, the text \"[Your Address Here]\" is replaced with: \"Shop No. 7, Rajeev Gandhi Complex, Manisha Market, Shahpura Lake, Shahpura, Bhopal, Madhya Pradesh 462039\".",
+        "In frontend/src/App.tsx footer section, the text \"Phone: [Your Phone Number]\" is replaced with: \"Phone: 09981123849\".",
+        "No other landing page sections (navbar, hero, featured collection, why-choose-us) are changed.",
+        "Footer layout and styling remain consistent with the existing golden/cream theme and responsive behavior."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "In the existing footer JSX, replace the two placeholder strings ([Your Address Here] and Phone: [Your Phone Number]) with the exact provided address and phone number, without altering any other sections or footer structure/styling."
+        }
+      ]
+    }
+  ]
+}

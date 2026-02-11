@@ -1,0 +1,14 @@
+{
+  "backend/main.mo": "Empty Motoko actor with no methods defined.",
+  "feature_evidence.json": "Feature evidence report linking a footer contact update to App.tsx and related components.",
+  "frontend-file-summaries.txt": "Prewritten summaries of key frontend files including App.tsx, index.css, and Tailwind config.",
+  "frontend/index.css": "Tailwind base layer defining OKLCH color variables and dark mode tokens with global styling.",
+  "frontend/index.html": "HTML entry point mounting the React app and loading main.tsx.",
+  "frontend/src/App.tsx": "Main React landing page with navigation, hero section, featured products, and contact footer.",
+  "frontend/src/hooks/useActor.ts": "React hook creating and refreshing a backend actor based on Internet Identity authentication.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Context provider and hook managing Internet Identity login, stored identities, and status.",
+  "frontend/src/index.css": "Custom Tailwind-driven CSS theme using golden/cream OKLCH variables with layout and component styles.",
+  "frontend/src/main.tsx": "React entry file setting up QueryClient and InternetIdentityProvider before rendering App.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending fonts, OKLCH color tokens, animations, and plugin setup.",
+  "project_state.json": "Defines project metadata, requirements, and architectural notes for building a responsive single‑page landing site for a grocery and dairy retailer. Lists existing features, layout expectations, and indicates this is a fix request."
+}

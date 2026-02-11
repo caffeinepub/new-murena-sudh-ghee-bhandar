@@ -1,0 +1,50 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-11T10:55:01.308Z",
+  "summary": "REQ-8 requests only replacing placeholder footer address/phone text in frontend/src/App.tsx while keeping all other landing page sections and footer styling/layout consistent. The diff summary indicates broader changes (App.tsx content plus CSS and Tailwind config modifications), and the provided App.tsx excerpt is truncated before the footer, so the exact required text replacements and the “footer-only change” constraint cannot be confirmed from the evidence shown.",
+  "missing_requirements": [
+    {
+      "id": "REQ-8",
+      "requirement": "In frontend/src/App.tsx footer section, replace \"[Your Address Here]\" with \"Shop No. 7, Rajeev Gandhi Complex, Manisha Market, Shahpura Lake, Shahpura, Bhopal, Madhya Pradesh 462039\" and replace \"Phone: [Your Phone Number]\" with \"Phone: 09981123849\".",
+      "reason": "The diff excerpt for frontend/src/App.tsx is truncated before the footer; the exact footer strings and their replacements are not visible in the provided diff content.",
+      "evidence": [
+        "frontend/src/App.tsx (truncated; footer not shown)"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "requirement": "No other landing page sections (navbar, hero, featured collection, why-choose-us) are changed; footer layout and styling remain consistent with the existing golden/cream theme and responsive behavior.",
+      "reason": "The diff summary shows modifications to global styling (frontend/src/index.css) and Tailwind configuration, and the App.tsx snippet includes large non-footer sections but does not show a minimal footer-only change. From the provided summary, it cannot be verified that only the footer contact text was changed and that layout/styling remained consistent.",
+      "evidence": [
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js",
+        "frontend/src/App.tsx (truncated)"
+      ]
+    }
+  ],
+  "hallucinated_features": [
+    {
+      "description": "Broad restyling or reimplementation of landing page CSS (\"Complete custom CSS\"), beyond updating footer contact text.",
+      "reason": "BuildRequest non-goals/AC limit changes to footer placeholders and explicitly say other landing page sections should not be changed; updating the entire index.css is not requested.",
+      "evidence": [
+        "frontend/src/index.css",
+        "frontend-file-summaries.txt"
+      ]
+    },
+    {
+      "description": "Tailwind configuration changes (extending font family / theming tokens) even though the request is only to update footer text.",
+      "reason": "REQ-8 does not request Tailwind/theme configuration updates; these are extra changes beyond updating footer contact details.",
+      "evidence": [
+        "frontend/tailwind.config.js",
+        "frontend-file-summaries.txt"
+      ]
+    }
+  ],
+  "confidence": 0.62,
+  "changed_files": [
+    "frontend-file-summaries.txt",
+    "frontend/src/App.tsx",
+    "project_state.json"
+  ]
+}
